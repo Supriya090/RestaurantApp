@@ -161,10 +161,10 @@ body{
  /* MENU CATEGORIES PAGE */
 .category-tile { 
     position: relative;
-    border: 2px solid #A8D5BAFF;
+    border: 2px solid #FEDC56;
     overflow: hidden;
-    width: 200px;
-    height: 150px;
+    width: 215px;
+    height: 170px;
     margin: 0 auto 15px;
   }
   .category-tile span {
@@ -175,7 +175,7 @@ body{
     text-align: center;
     font-size: 1.2em;
     text-transform: uppercase;
-    background-color: #A8D5BAFF;
+    background-color: #FEDC56;
     color: #000;
     opacity: .8;
   }
@@ -371,10 +371,19 @@ body{
         font-size: 7vw;
     }
     
+
     #menu-tile, #specials-tile, #map-tile{
         width: 280px;
         height: 200px;
         margin: 0 auto 15px;
+    }
+
+    .category-tile { 
+      position: relative;
+      border: 2px solid #FEDC56;
+      overflow: hidden;
+      width: 200px;
+      height: 150px;
     }
 
     .col-xxs-12{
